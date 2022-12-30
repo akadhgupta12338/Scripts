@@ -1,0 +1,8 @@
+- name: Ansible Copy Example Local to Remote
+  hosts: newserver
+  tasks:
+    - name: copying file with playbook
+      become: true
+      copy:
+        src: *
+        dest: /home/ubuntu/script/*
