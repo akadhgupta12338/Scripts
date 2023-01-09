@@ -1,5 +1,6 @@
-1. https://linuxscriptshub.com/configure-smtp-with-gmail-using-postfix/
-2. https://www.linode.com/docs/guides/configure-postfix-to-send-mail-using-gmail-and-google-workspace-on-debian-or-ubuntu/
+1. Basic - https://linuxscriptshub.com/configure-smtp-with-gmail-using-postfix/
+2. using gmail app details - https://www.linode.com/docs/guides/configure-postfix-to-send-mail-using-gmail-and-google-workspace-on-debian-or-ubuntu/
+3. youtube one using custom domain name - https://wpaq.com/configure-postfix-smtp-relay/
 
 Postfix is a Mail Transfer Agent (MTA) that can act as an SMTP server or client to send or receive email. There are many reasons why you would want to configure Postfix to send email using Google Workspace (previously called G Suite and Google Apps) and Gmail. One reason is to avoid getting your mail flagged as spam if your current server’s IP has been added to a block list.
 
